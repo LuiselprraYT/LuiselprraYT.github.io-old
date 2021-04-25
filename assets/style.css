@@ -1,10 +1,14 @@
+body {
+    background-color: gray;
+}
+
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
 }
 
 .nav-bar-item-hover a:hover {
-    background-color: gray;
+    background-color: #8391a1;
 }
 
 #nav-bar-links {
