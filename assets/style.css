@@ -8,7 +8,7 @@ body {
 }
 
 .nav-bar-item-hover a:hover {
-    background-color: gray;
+    background-color: rgb(64, 64, 64);
 }
 
 #nav-bar-links {
