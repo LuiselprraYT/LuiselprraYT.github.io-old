@@ -37,4 +37,5 @@ body {
 
 .active a:hover {
     background-color: rgb(0, 128, 0);
+    color: white;
 }
