@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: #8391a1;
 }
 
 #nav-bar-item {
@@ -8,7 +8,7 @@ body {
 }
 
 .nav-bar-item-hover a:hover {
-    background-color: #8391a1;
+    background-color: gray;
 }
 
 #nav-bar-links {
@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: gray;
     position: -webkit-sticky;
     position: sticky;
     position: -moz-sticky;
