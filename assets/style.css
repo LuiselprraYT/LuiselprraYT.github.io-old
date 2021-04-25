@@ -5,7 +5,6 @@ body {
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
-    text-decoration: none;
 }
 
 .nav-bar-item-hover a:hover {
@@ -16,6 +15,7 @@ body {
 #nav-bar-links {
     display: block;
     padding: 8px;
+    text-decoration: none;
 }
 
 #nav-bar {
