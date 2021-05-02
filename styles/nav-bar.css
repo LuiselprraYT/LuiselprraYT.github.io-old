@@ -5,12 +5,11 @@ body {
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
-    color: black !important;
 }
 
 .nav-bar-item-hover a:hover {
     background-color: rgb(64, 64, 64);
-    color: white;
+    color: white !important;
 }
 
 #nav-bar-links {
@@ -18,6 +17,7 @@ body {
     padding: 8px;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
+    color: black;
 }
 
 #nav-bar {
