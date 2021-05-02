@@ -1,11 +1,11 @@
 body {
     background-color: #8391a1;
 }
-
+/* Navigation Bar */
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
-    color: black;
+    color: black !important;
 }
 
 .nav-bar-item-hover a:hover {
