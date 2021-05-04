@@ -7,7 +7,7 @@ body {
     border-right: 1px solid black;
 }
 
-.nav-bar-item-hover a:hover {
+#nav-bar-item a:hover {
     background-color: rgb(64, 64, 64);
     color: white !important;
 }
