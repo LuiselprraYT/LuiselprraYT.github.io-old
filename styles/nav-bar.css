@@ -5,6 +5,7 @@ body {
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
+    transition: 2s;
 }
 
 #nav-bar-item a:hover {
