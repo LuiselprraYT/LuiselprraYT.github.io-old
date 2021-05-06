@@ -38,10 +38,6 @@ body {
     background: rgba(255 ,69 ,0 , 127);
 }
 
-#down-under h1 {
-    text-align: center;
-}
-
 .active {
     background-color: rgb(0, 255, 0);
     color: black;
