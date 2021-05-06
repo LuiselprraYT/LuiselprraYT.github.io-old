@@ -10,7 +10,7 @@ body {
 #nav-bar-item a:hover {
     background-color: rgb(64, 64, 64);
     color: white !important;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 #nav-bar-links {
@@ -35,7 +35,7 @@ body {
 }
 
 #down-under {
-    background: rgba(255 ,69 ,0 , 127);
+    background: rgba(255 ,69 ,0 , 0.5);
 }
 
 .active {
