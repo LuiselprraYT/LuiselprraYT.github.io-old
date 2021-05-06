@@ -36,6 +36,7 @@ body {
 
 #down-under {
     background: rgba(255 ,69 ,0 , 0.5);
+    border-radius: 10px;
 }
 
 .active {
