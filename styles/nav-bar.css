@@ -34,6 +34,10 @@ body {
     width: 100%;
 }
 
+#down-under {
+    background: rgba(255 ,69 ,0 , 127);
+}
+
 .active {
     background-color: rgb(0, 255, 0);
     color: black;
