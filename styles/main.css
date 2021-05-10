@@ -2,6 +2,12 @@ body {
     background-color: #8391a1;
 }
 
+#dont-select {
+    user-select: none;
+}
+
+/* Under Construction */
+
 @font-face {
     font-family: sans-ms;
     src: url(https://luiselprrayt.github.io/assets/ComicSansMS3.woff2);
