@@ -21,6 +21,11 @@ body {
     color: black;
 }
 
+@font-face {
+    font-family: sans-ms;
+    src: url(https://luiselprrayt.github.io/assets/ComicSansMS3.woff2);
+}
+
 #nav-bar {
     list-style-type: none;
     margin: 0;
@@ -37,10 +42,11 @@ body {
 #down-under {
     background: rgba(255 ,69 ,0 , 0.5);
     border-radius: 10px;
+    font-family: sans-ms;
 }
 
 .active {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(111, 114, 111);
     color: black;
 }
 
