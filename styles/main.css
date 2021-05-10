@@ -1,0 +1,14 @@
+body {
+    background-color: #8391a1;
+}
+
+@font-face {
+    font-family: sans-ms;
+    src: url(https://luiselprrayt.github.io/assets/ComicSansMS3.woff2);
+}
+
+#down-under {
+    background: rgba(255 ,69 ,0 , 0.5);
+    border-radius: 10px;
+    font-family: sans-ms;
+}
