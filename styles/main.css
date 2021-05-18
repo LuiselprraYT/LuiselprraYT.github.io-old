@@ -2,6 +2,10 @@ body {
     background-color: #8391a1;
 }
 
+#body-text {
+    font-family: 'Quicksand', sans-serif;
+}
+
 #dont-select {
     user-select: none;
 }
