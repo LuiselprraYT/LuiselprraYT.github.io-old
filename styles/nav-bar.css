@@ -1,6 +1,7 @@
 #nav-bar-item {
     float: left;
     border-right: 1px solid black;
+    transition: 0.25s;
 }
 
 #nav-bar-item a:hover {
