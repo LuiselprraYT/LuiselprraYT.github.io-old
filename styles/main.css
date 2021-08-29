@@ -75,3 +75,14 @@ body {
 .active { background-color: rgb(0, 255, 0); }
 .active:hover { background-color: rgb(0, 127, 0) !important; }
 #nav-item:last-child { float: right; }
+
+/* Scroll Bar */
+
+body::-webkit-scrollbar { width: 5px; }
+body::-webkit-scrollbar-track { background: #8391a1; }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00ff00;
+    border-radius: 40px;
+    border: 3px none #ffffff;
+}
