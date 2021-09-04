@@ -7,6 +7,6 @@ function yes() {
         'pretty hungry ngl',
         'i want some cookies, you have?'
     ];
-    var item = array[Math.floor(Math.random()*text.length)];
+    var item = text[Math.floor(Math.random()*text.length)];
     document.getElementById('randtext').innerHTML = item;
 }
