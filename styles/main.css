@@ -9,11 +9,11 @@ body {
     background: rgb(0, 255, 0);
 }
 
-#body-text {
+.body-text {
     font-family: 'Quicksand', sans-serif;
 }
 
-#body-text a {
+.body-text a {
     color: rgb(0, 255, 0);
     text-decoration: none;
 }
