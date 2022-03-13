@@ -24,6 +24,12 @@
         }
     </style>
     <script>
+        function pushP(event) {
+            var code = event.keyCode;
+            if (code == 32) {
+                fartr();
+            }
+        }
         function fartr() {
             var sound =  document.getElementById('fart');
             var fard = sound.cloneNode();
@@ -42,7 +48,7 @@
         }
     </script>
 </head>
-<body>
+<body onkeydown="pushP(event)">
     <button onclick="changeToBoom()" id="one">vine boom</button>
     <button onclick="changeToFart()" id="two">reverb fard</button>
     <img onclick="fartr()" src="/assets/thebutton/fartpush.png">
