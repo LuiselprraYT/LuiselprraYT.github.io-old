@@ -4,13 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="refresh" content="7; url=/home">
-        <meta name="description" content="gamer pro website">
-        <title>Welcome!</title>
+        <script src="/scripts/scripts.js"></script>
         <style>
             /* the extras */
             
             @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-    
+            
             /* the keyframes */
             
             @keyframes bc-color-change {
@@ -56,7 +55,7 @@
             }
     
             /* the styles */
-    
+            
             body {
                 animation: bc-color-change 2s;
                 background-color: #8391a1;
@@ -76,6 +75,10 @@
             .the-div h3 {
                 animation: txt-color-change 2s, link-appear infinite ease 2s;
             }
+            .the-div a {
+            animation: txt-color-change 2s, link-appear infinite ease 2s;
+            color: #00FF00;
+            }
             .the-since {
                 position: absolute;
                 right: 5px;
@@ -87,13 +90,14 @@
                 color: #8391a1;
                 text-decoration: none;
             }
-        </style>
+            </style>
+            <title>Welcome!</title>
 </head>
-<body>
+<body onload="yesV2()">
     <div class="the-div">
         <h1>LuiselprraYT</h1>
-        <h3>Loadin'...</h3>
+        <h3 id="theLoad"></h3>
     </div>
-    <p class="the-since">All Rights Reserved</p>
+    <p class="the-since">LuiselprraYT® 2020 - 2022</p>
 </body>
 </html>
